@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>イベントページ</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "サンプル株式会社",
+        "url": "https://www.example.com",
+        "logo": "https://www.example.com/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+81-3-1234-5678",
+          "contactType": "customer service",
+          "email": "info@example.com"
+        }
+      },
+      {
+        "@type": "Event",
+        "name": "サンプルカンファレンス2024",
+        "startDate": "2024-09-01T09:00+09:00",
+        "endDate": "2024-09-01T17:00+09:00",
+        "location": {
+          "@type": "Place",
+          "name": "サンプルホール",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "東京都千代田区1-1",
+            "addressLocality": "千代田区",
+            "addressRegion": "東京都",
+            "postalCode": "100-0001",
+            "addressCountry": "JP"
+          }
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <h1>サンプルカンファレンス2024</h1>
+  <p>イベントの詳細は近日公開予定です。</p>
+</body>
+</html>
